@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <?php include_once('./app/controller/header.php'); ?>
-    <?php include_once('./app/controller/thread.php'); ?>
+    <?php include_once('./app/view/header.php'); ?>
+    <?php include_once('./app/view/thread.php'); ?>
+    <?php include_once('./app/view/newThreadBtn.php'); ?>
 </body>
 
 </html>

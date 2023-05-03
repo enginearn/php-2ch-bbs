@@ -81,3 +81,38 @@ section .comment {
 hr {
     color: red;
 }
+
+/* new thread */
+
+.newThreadWrapper {
+    width: 80%;
+    margin-top: 10px;
+    margin: 0 auto;
+    background-color: #00ff80;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.newChildThreadWrapper {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.newChildThreadWrapper button a {
+    color: #000;
+    width: 150px;
+    text-decoration: none;
+}
+
+div h2 {
+    margin: 0;
+}
+
+.newTheadCreation {
+    margin: 0 auto;
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
