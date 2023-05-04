@@ -1,9 +1,11 @@
 # XAMPP
 
-XAMPP は、`Apache`、`MariaDB(MySQL)`、`PHP`、`Perl` を含むオープンソースのウェブサーバーですが、
+`XAMPP` は使用せず、`Apache`、`MariaDB(MySQL)`、`PHP` のみを使用し、それぞれを個別にインストールして環境構築する。
 
-今回は `Apache`、`MariaDB(MySQL)`、`PHP` のみを使用し、それぞれを個別にインストールして環境構築する。(XAMPP は使用しない)
-*
+`Apache`、`MariaDB(MySQL)`、`PHP`はそれぞれの公式サイトからダウンロードし、単体では`path`をとしてあるところから始める。
+
+---
+
 `Apache` の `htdocs` にシンボリックリンクを作成する。
 
 ``` PowerShell
