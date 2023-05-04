@@ -1,9 +1,9 @@
 <?php
 
 include_once('app/model/connect.php');
-include_once('app/functions/get_thread.php');
-include_once('app/functions/get_all_comments.php');
-// include_once('app/functions/post_comment.php');
+include('app/functions/post_comment.php');
+include('app/functions/get_thread.php');
+include('app/functions/create_thread.php');
 
 ?>
 
